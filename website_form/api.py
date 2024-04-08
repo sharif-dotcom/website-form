@@ -3,13 +3,6 @@ from frappe.sessions import get_csrf_token
 csrf_token = get_csrf_token()
 
 
-
-# APi Secret :"1429a0c168b273b"
-# Save API Secret: 1429a0c168b273b
-
-
-
-
 @frappe.whitelist(allow_guest=True)
 def get_all_inputs(your_name = "", your_email = "", your_subject = "", your_message = ""):
     try:
