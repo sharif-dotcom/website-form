@@ -28,24 +28,6 @@ def get_all_inputs(your_name = "", your_email = "", your_subject = "", your_mess
 
 
 
-# from frappe import _
-
-# @frappe.whitelist(allow_guest=True)
-# def submit_contact_form(your_name, your_email, your_subject, your_message):
-#     # Perform any necessary validation here
-
-#     # Insert the data into the target doctype form
-#     contact_us = frappe.new_doc("webcitform")
-#     contact_us.your_name = your_name
-#     contact_us.your_email = your_email
-#     contact_us.your_subject = your_subject
-#     contact_us.your_message = your_message
-
-#     contact_us.insert()
-#     frappe.db.commit()
-
-#     return _("Your message has been sent successfully")
-
 
 
 
