@@ -16,6 +16,8 @@ def get_all_inputs(your_name = "", your_email = "", your_subject = "", your_mess
         
        
 
+    
+
         if your_name is not None and your_email is not None and your_subject is not None and your_message is not None:
           pass
         data.insert()
