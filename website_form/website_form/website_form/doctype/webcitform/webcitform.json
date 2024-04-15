@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-08 17:54:21.147499",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "your_name",
+  "your_email",
+  "your_subject",
+  "your_message"
+ ],
+ "fields": [
+  {
+   "fieldname": "your_name",
+   "fieldtype": "Data",
+   "label": "Your Name"
+  },
+  {
+   "fieldname": "your_email",
+   "fieldtype": "Data",
+   "label": "Your Email"
+  },
+  {
+   "fieldname": "your_subject",
+   "fieldtype": "Data",
+   "label": "Your subject"
+  },
+  {
+   "fieldname": "your_message",
+   "fieldtype": "Data",
+   "label": "Your Message"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-08 18:01:09.081552",
+ "modified_by": "Administrator",
+ "module": "Website Form",
+ "name": "webcitform",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
